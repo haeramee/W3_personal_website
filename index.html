@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="20210405.css"> <!--type 설정하는 이유?-->
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="intro_bg">
+                <div class="header" id="link_header">
+                    <div class="search_area">
+                        <form>
+                            <input type="search" placeholder="Search"> <!--placeholder?-->
+                            <span>검색</span>
+                        </form>
+                    </div>
+                    <ul class="nav">
+                        <li><button class="button"><a href="#link_header">HOME</a></button></li>
+                        <li><button class="button"><a href="#link_main_text0">ABOUT</a></button></li>
+                        <li><button class="button"><a href="#link_main_text1">SERVICE</a></button></li>
+                        <li><button class="button"><a href="#link_main_text2">CONTACT</a></button></li>
+                    </ul>
+                </div>
+                <div class="intro_text">
+                    <h1>인생 탐험기</h1>
+                    <h4>산 보단 바다, 밤잠 보단 낮잠, 커피 보단 홍차</h4>
+                </div> 
+            </div>
+            <!-- intro end -->
+
+            <ul class="amount">
+                <li>
+                    <div>
+                        <h4>나이</h4>
+                        <h4>23살</h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>동생</h4>
+                        <h4>1명</h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>낮잠 자기 가장 좋아하는 시간</h4>
+                        <h4>오후 3시</h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h4>앞으로 굽히기 유연성 검사</h4>
+                        <h4>+25cm</h4>
+                    </div>
+                </li>
+            </ul>
+            <!-- amount end -->
+
+            <div class="main_text0" id="link_main_text0">
+                <h1>ABOUT</h1>
+                <h4>궁금해하지 않았을 아주 사소한 소식들을 알려드립니다.</h4>
+
+                <ul class="icons">
+                    <li>
+                        <div class="icon_img">
+                            <img width="110px" height="110px" src="images/basil.png">
+                        </div>
+                        <div class="contents1_bold">식물의 생명 앗아가기 전문</div>
+                        <div class="contents2">
+                            오랜 시간 지극정성으로 수돗물을 먹여 <br>염소를 싫어하는 테이블 야자의 생명을 앗아가는 중이며, <br>바질은 물을 너무 많이 줘서 생명을 앗아갔다.
+                        </div>
+                        <div class="more">
+                            MORE
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon_img">
+                            <img width="110px" height="110px" src="images/fitness.svg">
+                        </div>
+                        <div class="contents1_bold">운동 부족 전문</div>
+                        <div class="contents2">
+                            운동 부족으로 인해 온몸에 힘이 빠져 나가고 있다. <br>집에 있는 요가 매트는 장식이다.
+                        </div>
+                        <div class="more">
+                            MORE
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon_img">
+                            <img width="110px" height="110px" src="images/book.svg">
+                        </div>
+                        <div class="contents1_bold">최근에 읽은 책</div>
+                        <div class="contents2">
+                            공정하다는 착각, 사랑할까 먹을까, 도넛 경제학<br>아직 쓴 독후감은 없지만 <br>언젠간 써서 오거서 장학금을 타고 싶다. 
+                        </div>
+                        <div class="more">
+                            MORE
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- main_text1-->
+            <div class="main_text1" id="link_main_text1">
+                <h1>FUTURE SERVICES</h1>
+                <div class="contents1">Frontend Developer를 꿈꾸며 처음 코딩 공부를 시작한 비전공자 왕초보입니다.</div>
+                <div class="service">
+                    <div class="food_photo">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jo8VGpJzQEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="contents2">
+                        <h2>이런 멋진 디자인을 구현하는 Frontend Developer가 되고 싶어요</h2><br>
+                        김종민(Google 시니어 UX 엔지니어)의 Chamoy 프로젝트 <br>
+                        해당 작품은 다음과 같은 순서로 구현했다고 합니다. <br><br>
+                        
+                        1. HTML5 캔버스 그래픽으로 무작위로 물방울이 떨어지는 모습 구현. 끈적거림을 표현하기 위해 SVG 필터 사용.<br>
+                        2. 더 많은 디바이스에서 정상적으로 구현하기 위해 WebGL과 PIXI.js로 끈적이는 물방울이 떨어지는 모습 구현.<br>
+                        3. 물방울이 일정 길이로 길어지면 밑에 부분은 떨어지고 윗부분은 다시 올라가게 해 끈적거리는 느낌을 표현.<br>
+                        4. 아이스크림의 윗부분을 지정하여 해당 부분이 끈적이는 잼과 닿을 경우 닿은 시간과 위치에 따라 잼이 따라오는 것처럼 보이도록 구현.<br>
+                        5. 아이스크림이 물방울에 닿을 경우 아이스크림의 움직임에 따라 물방울이 따라가도록 구현.
+                    </div>
+                </div>
+            </div>
+            
+            <!-- main_text2 -->
+            <div class="main_text2" id="link_main_text2">
+                <ul>
+                    <li>
+                        <div><h1>CONTACT</h1></div>
+                        <div>높은 확률로 낮잠 자는 중이니 가급적 연락을 삼가주세요</div>
+                        <div class="more2">
+                            더 알아보기
+                        </div>
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+            <footer>
+                <div>
+                    LOGO
+                </div>
+                <div>
+                    CEO. 해람 디자인 <br>
+                    Addr. 서울특별시 신당동 우림 아파트<br>
+                    02 - 123 - 4567 <br>
+                    COPYRIGHT 2021. 해람. ALL RIGHT RESERVED.
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
